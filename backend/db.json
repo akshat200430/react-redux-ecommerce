@@ -1,0 +1,159 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "david",
+      "email": "david@.com",
+      "password": "1234",
+      "isAdmin": false
+    },
+    {
+      "id": "b499",
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "password": "1234",
+      "isAdmin": true
+    },
+    {
+      "id": "VCrq-K4-2YgK53AZYh3lH",
+      "username": "Bhumi",
+      "email": "bhumi@gmail.com",
+      "password": "1234",
+      "isAdmin": false
+    },
+    {
+      "id": "wLs0XjrVWEYwY7f-4kjDH",
+      "username": "akshat",
+      "email": "akshatdeshmukhoff@gmail.com",
+      "password": "1234",
+      "isAdmin": false
+    },
+    {
+      "id": "V_s9mhMn9iyKOc4597huv",
+      "username": "akash",
+      "email": "akash@gmail.com",
+      "password": "1234",
+      "isAdmin": false
+    },
+    {
+      "id": "Rddz4uxd3VwrPCjJrnrcH",
+      "username": "Kavita",
+      "email": "Kavita@gmail.com",
+      "password": "1234",
+      "isAdmin": false
+    },
+    {
+      "id": "2LJgOfDjzaLyZxY_VtNKp",
+      "username": "bum",
+      "email": "bum@gmail.com",
+      "password": "1234",
+      "isAdmin": true
+    },
+    {
+      "id": "NtSS20l9IyaR-r_fPpwLE",
+      "username": "buuu",
+      "email": "buuu@gmail.com",
+      "password": "1234",
+      "isAdmin": false
+    },
+    {
+      "id": "mlqntqdzAYoduA-Vy7tH6",
+      "username": "nikhil pandey",
+      "email": "ljdnasjd@asdas.com",
+      "password": "54321",
+      "isAdmin": true
+    },
+    {
+      "id": "XgFrXlxQ6hX_3gguWOskX",
+      "username": "akhil",
+      "email": "ahil@gmail.com",
+      "password": "1234",
+      "isAdmin": true
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "image": "https://porscheexchange.shop/cdn/shop/products/urbanbag.jpg?v=1674233323&width=1080",
+      "title": "Premium Travel Backpack for Daily Commute, College & Long Trips",
+      "description": "Durable and waterproof travel backpack designed for daily commute, college use, office work, and long trips. Features multiple spacious compartments, smooth zippers, padded shoulder straps for comfort, and a strong build that can easily carry laptops, books, clothes, and travel essentials.",
+      "category": "bag",
+      "price": "720"
+    },
+    {
+      "id": "p2",
+      "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg",
+      "title": "Stylish Laptop Backpack with Extra Padding for Office & Travel",
+      "description": "Stylish and modern laptop backpack suitable for office professionals, students, and travelers. Comes with extra padding for laptop safety, organized pockets for accessories, durable fabric, and comfortable straps for long hours of use during travel or daily work.",
+      "category": "bag",
+      "price": "1299"
+    },
+    {
+      "id": "p5",
+      "image": "https://m.media-amazon.com/images/I/61CGHv6kmWL._SL1500_.jpg",
+      "title": "Wireless Bluetooth Headphones with Noise Cancellation & Deep Bass",
+      "description": "High-quality wireless Bluetooth headphones featuring advanced noise cancellation technology, deep bass output, clear vocals, long battery life, and a comfortable over-ear design. Ideal for music, gaming, online meetings, workouts, and travel.",
+      "category": "electronics",
+      "price": "2499"
+    },
+    {
+      "id": "p6",
+      "image": "https://rukminim2.flixcart.com/image/480/640/xif0q/shopsy-smartwatch/p/b/6/1-44-android-ios-t500-smart-watch-with-bluetooth-calling-black-original-imagvy24hyyqbzvm.jpeg?q=90",
+      "description": "Feature-rich smart watch designed to track daily fitness activities including steps, calories, heart rate, sleep patterns, and workouts. Comes with a stylish display, long battery life, water resistance, and smart notifications for calls and messages.",
+      "category": "electronics",
+      "price": "1999"
+    },
+    {
+      "id": "p7",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHT7sCvIIrLb3iaz4bvp4PoSzBgu8VfMLQWQ&s",
+      "title": "Comfortable Lightweight Running Shoes for Gym, Jogging & Sports",
+      "description": "Lightweight and breathable running shoes designed for gym workouts, jogging, walking, and sports activities. Offers excellent grip, cushioned sole for shock absorption, flexible design, and long-lasting comfort for everyday fitness routines.",
+      "category": "fashion",
+      "price": "1799"
+    },
+    {
+      "id": "p8",
+      "image": "https://3below.co/cdn/shop/files/ALLIN_1024x1024.jpg?v=1722500343",
+      "title": "Classic Casual Cotton T-Shirt for Daily Wear & All Seasons",
+      "description": "Premium quality casual cotton t-shirt with a classic round-neck design. Soft, breathable fabric ensures all-day comfort. Perfect for daily wear, outings, lounging, or pairing with jeans and joggers in all seasons.",
+      "category": "fashion",
+      "price": "499"
+    }
+  ],
+  "carts": [
+    {
+      "id": "NtSS20l9IyaR-r_fPpwLE",
+      "cart": [
+        {
+          "idp": null,
+          "quantity": 1
+        },
+        {
+          "idp": null,
+          "quantity": 1
+        },
+        {
+          "idp": null,
+          "quantity": 1
+        },
+        {
+          "idp": "p5",
+          "quantity": 1
+        },
+        {
+          "idp": "p7",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "VCrq-K4-2YgK53AZYh3lH",
+      "cart": [
+        {
+          "idp": "p6",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
+}
