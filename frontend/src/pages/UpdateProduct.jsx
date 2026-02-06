@@ -40,7 +40,13 @@ return (
     className="flex flex-col gap-6 border w-full  bg-white/10 backdrop-blur-lg border-white/20 shadow-lg rounded-xl p-6"
   >
     <input
-      className="w-full p-2 bg-gradient-to-r from-blue-800 to-yellow-600 rounded-xl"
+      className="w-full p-3
+            rounded-xl
+            bg-slate-100
+            border border-slate-300
+            text-slate-800
+            placeholder-slate-500
+            focus:outline-none focus:ring-2 focus:ring-blue-500"
       {...register('image')}
       type="text"
       placeholder="Image URL..."
@@ -48,7 +54,13 @@ return (
     />
 
     <input
-      className="w-full p-2 bg-gradient-to-r from-blue-800 to-yellow-600 rounded-xl"
+      className="w-full p-3
+            rounded-xl
+            bg-slate-100
+            border border-slate-300
+            text-slate-800
+            placeholder-slate-500
+            focus:outline-none focus:ring-2 focus:ring-blue-500"
       {...register('title')}
       type="text"
       placeholder="Title..."
@@ -56,7 +68,13 @@ return (
     />
 
     <input
-      className="w-full p-2 bg-gradient-to-r from-blue-800 to-yellow-600 rounded-xl"
+      className="w-full p-3
+            rounded-xl
+            bg-slate-100
+            border border-slate-300
+            text-slate-800
+            placeholder-slate-500
+            focus:outline-none focus:ring-2 focus:ring-blue-500"
       {...register('price')}
       type="number"
       placeholder="Price..."
@@ -64,12 +82,26 @@ return (
     />
 
     <textarea
-      className="w-full p-2 bg-gradient-to-r from-blue-800 to-yellow-600 rounded-xl min-h-[120px]"
+      className="w-full p-3
+            rounded-xl
+            bg-slate-100
+            border border-slate-300
+            text-slate-800
+            placeholder-slate-500
+            focus:outline-none focus:ring-2 focus:ring-blue-500"
       {...register('description')}
       placeholder="Description..."
     />
 
-    <button className="w-full sm:w-1/2 mx-auto rounded-xl p-2 bg-gradient-to-r from-blue-800 to-yellow-600 font-bold active:scale-95 transition">
+    <button className="w-full
+            py-3
+            rounded-xl
+            bg-blue-600
+            text-white
+            font-semibold
+            hover:bg-blue-700
+            active:scale-95
+            transition">
       Update
     </button>
   </form>
