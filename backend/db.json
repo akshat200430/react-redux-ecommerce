@@ -6,69 +6,6 @@
       "email": "david@.com",
       "password": "1234",
       "isAdmin": false
-    },
-    {
-      "id": "b499",
-      "username": "Admin",
-      "email": "admin@gmail.com",
-      "password": "1234",
-      "isAdmin": true
-    },
-    {
-      "id": "VCrq-K4-2YgK53AZYh3lH",
-      "username": "Bhumi",
-      "email": "bhumi@gmail.com",
-      "password": "1234",
-      "isAdmin": false
-    },
-    {
-      "id": "wLs0XjrVWEYwY7f-4kjDH",
-      "username": "akshat",
-      "email": "akshatdeshmukhoff@gmail.com",
-      "password": "1234",
-      "isAdmin": false
-    },
-    {
-      "id": "V_s9mhMn9iyKOc4597huv",
-      "username": "akash",
-      "email": "akash@gmail.com",
-      "password": "1234",
-      "isAdmin": false
-    },
-    {
-      "id": "Rddz4uxd3VwrPCjJrnrcH",
-      "username": "Kavita",
-      "email": "Kavita@gmail.com",
-      "password": "1234",
-      "isAdmin": false
-    },
-    {
-      "id": "2LJgOfDjzaLyZxY_VtNKp",
-      "username": "bum",
-      "email": "bum@gmail.com",
-      "password": "1234",
-      "isAdmin": true
-    },
-    {
-      "id": "NtSS20l9IyaR-r_fPpwLE",
-      "username": "buuu",
-      "email": "buuu@gmail.com",
-      "password": "1234",
-      "isAdmin": false
-    },
-    {
-      "id": "mlqntqdzAYoduA-Vy7tH6",
-      "username": "nikhil pandey",
-      "email": "ljdnasjd@asdas.com",
-      "password": "54321",
-      "isAdmin": true
-    },
-    {
-      "id": "XgFrXlxQ6hX_3gguWOskX",
-      "username": "akhil",
-      "email": "ahil@gmail.com",
-      "password": "1234",
-      "isAdmin": true
     }
   ],
   "products": [
