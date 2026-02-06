@@ -128,12 +128,10 @@ const Login = () => {
           space-y-6
         "
       >
-        {/* TITLE */}
         <h1 className="text-2xl font-bold text-slate-800 text-center">
           Login to your account
         </h1>
 
-        {/* EMAIL */}
         <input
           {...register("email")}
           type="email"
@@ -150,7 +148,6 @@ const Login = () => {
           required
         />
 
-        {/* PASSWORD */}
         <input
           {...register("password")}
           type="password"
@@ -167,7 +164,6 @@ const Login = () => {
           required
         />
 
-        {/* BUTTON */}
         <button
           type="submit"
           className="
@@ -185,7 +181,6 @@ const Login = () => {
           Login
         </button>
 
-        {/* REGISTER LINK */}
         <p className="text-sm text-center text-slate-600">
           Don’t have an account?{" "}
           <Link className="text-blue-600 hover:underline" to="/register">
