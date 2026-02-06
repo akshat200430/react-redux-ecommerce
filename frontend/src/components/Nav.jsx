@@ -203,8 +203,8 @@ const Nav = () => {
             className="text-lg sm:text-2xl font-bold cursor-pointer tracking-wide"
           >
             <span className="text-yellow-400">Demo</span>
-            <span className="hidden sm:inline">-CRUD-Shop</span>
-          </h1>
+            <span className=" sm:inline text-white">-CRUD-Shop <small>By Akshat..</small></span>
+          </h1> 
 
           <div className="hidden md:flex items-center gap-8 text-sm lg:text-base">
             <NavLink className={linkClass} to="/">Home</NavLink>
@@ -264,7 +264,7 @@ const Nav = () => {
 
             <button
               onClick={() => setOpen(!open)}
-              className="text-2xl px-2 py-1 rounded-lg active:bg-white/10"
+              className="text-2xl px-2 py-1 rounded-lg active:bg-white/10 text-white"
             >
               ☰
             </button>
