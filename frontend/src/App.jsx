@@ -34,10 +34,11 @@ const App = () => {
   if (loading) return <Loader />;
 
   return (
-    <div className="min-h-screen flex flex-col w-screen bg-gradient-to-r from-gray-950 via-indigo-800 to-yellow-400">
-      <Nav />
-      <Mainroutes />
-    </div>
+    <div className="min-h-screen flex flex-col w-screen bg-gradient-to-r from-slate-50 via-blue-50 to-blue-100">
+  <Nav />
+  <Mainroutes />
+</div>
+
   );
 };
 
