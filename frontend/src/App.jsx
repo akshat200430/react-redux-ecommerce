@@ -1,26 +1,37 @@
-import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+
+
+import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
 import Nav from "./components/Nav";
 import Mainroutes from "./routes/Mainroutes";
+import Loader from "./components/Loader";
+
 import { asynccurrentfunction } from "./store/actions/userActions";
 import { asyncproductrender } from "./store/actions/productActions";
 import { asyncloadcart } from "./store/actions/cartActions";
 
 const App = () => {
   const dispatch = useDispatch();
-
-  const userId = useSelector((state) => state.user?.data?.id);
-
-  useEffect(() => {
-    dispatch(asynccurrentfunction());
-    dispatch(asyncproductrender());
-  }, []);
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
-    if (userId) {
-      dispatch(asyncloadcart(userId));
-    }
-  }, [userId]);
+    const initApp = async () => {
+      try {
+     
+        await dispatch(asynccurrentfunction());
+        await dispatch(asyncproductrender());
+        await dispatch(asyncloadcart());
+      } catch (err) {
+        console.error( err);
+      } finally {
+        setLoading(false); 
+      }
+    };
+
+    initApp();
+  }, [dispatch]);
+
+  if (loading) return <Loader />;
 
   return (
     <div className="min-h-screen flex flex-col w-screen bg-gradient-to-r from-gray-950 via-indigo-800 to-yellow-400">
