@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 const instance  = axios.create({
-    baseURL :' https://redux-ecommerce-backend-e4l0.onrender.com',
+    baseURL :import.meta.env.VITE_API_URL
 })
 
 export default instance;
