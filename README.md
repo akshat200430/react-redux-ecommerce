@@ -6,6 +6,8 @@ Full-stack e-commerce application built with React, Redux Toolkit, Tailwind CSS,
 
 A full-stack E-commerce CRUD application built using React, Redux Toolkit, and JSON Server.
 The project is divided into two folders: Frontend and Backend, making it easy to understand and maintain.
+live-Vercel-link:https://react-redux-ecommerce-seven.vercel.app/
+
 
 
 ---
